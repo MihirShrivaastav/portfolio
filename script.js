@@ -17,7 +17,7 @@
     Docker:["docker/docker-original.svg","#9fd4ff"],
     Kubernetes:["kubernetes/kubernetes-plain.svg","#b8c4ff"],
     Terraform:["terraform/terraform-original.svg","#d3b8ff"],
-    AWS:["./assets/aws-logo.png","#ffc58a"],
+    AWS:["./assets/aws.svg","#ffc58a"],
     Jenkins:["jenkins/jenkins-original.svg","#ffb3b3"],
     Git:["git/git-original.svg","#ffcfa8"],
     Linux:["linux/linux-original.svg","#fff0a0"]
