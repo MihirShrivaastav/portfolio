@@ -1,71 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mihir Srivastava - Python, DevOps, and data pipeline engineer." />
-    <title>Mihir Srivastava | DevOps Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="page-shell">
-      <nav class="topbar" aria-label="Main navigation">
-        <a class="logo" href="#home">MS<span>.</span></a>
-        <a class="resume-link" href="./assets/Mihir_Srivastava_Resume.pdf" target="_blank" rel="noreferrer">Resume <span>↗</span></a>
-      </nav>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Mihir Srivastava - Python, DevOps, and data pipeline engineer." />
+<title>Mihir Srivastava | Python &amp; DevOps Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-      <section id="home" class="hero">
-        <div class="intro">
-          <p class="eyebrow"><span></span> PYTHON · DEVOPS · DATA PIPELINES</p>
-          <h1>Hi, I’m <em>Mihir.</em></h1>
-          <p class="about">I’m a technology enthusiast who enjoys building things with code and constantly exploring new technologies. I’m particularly interested in software engineering, backend development, databases, APIs, cloud computing, and AI/Generative AI.
+<!-- ===== TOP BAR: logo + three links (Contact opens the message popup) ===== -->
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#info">/mihir</a>
+    <nav aria-label="Main navigation">
+      <a href="#info">Info</a>
+      <a href="#playground">Playground</a>
+      <a href="#contact" data-open>Contact</a>
+    </nav>
+    <a class="btn small" href="./assets/Mihir_Srivastava_Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
+  </div>
+</header>
 
-<br> I enjoy learning by building, experimenting, and solving problems, and I’m always curious about how technology can be used to create practical solutions.
+<main>
+<!-- ===== INFO: intro, photo, buttons, social links ===== -->
+<section id="info" class="wrap hero">
+  <div>
+    <p class="mono">Mihir Srivastava, Python &amp; DevOps engineer in India</p>
+    <h1>I turn code into <mark>running systems.</mark></h1>
+    <p class="lead">I build things with code, automate the path to production, and keep exploring new technology, from cloud and backend systems to AI and Generative AI.</p>
+    <p class="mono">Currently into <b id="typed"></b><i class="cur"></i></p>
+    <div class="cta">
+      <a class="btn ink" href="#contact" data-open>Say hello</a>
+      <a class="btn" href="https://github.com/MihirShrivaastav" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a class="btn" href="https://www.linkedin.com/in/srivastava-mihir/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      <a class="btn" href="https://leetcode.com/u/mihirsrivastav/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+    </div>
+  </div>
+  <div class="photo"><img src="./assets/mihir-srivastava.jpeg" alt="Mihir Srivastava" onerror="this.style.opacity=.1" /></div>
+</section>
 
-<br>Beyond the world of tech, I love sketching, playing the guitar, travelling, and playing sports. These hobbies give me a creative break from coding and keep me curious, active, and open to new experiences.
-</p>
-          
-        </div>
-        <div class="photo-wrap">
-          <div class="photo-glow"></div>
-          <img src="./assets/mihir-srivastava.jpeg" alt="Mihir Srivastava" />
-          <p class="photo-note">BASED IN INDIA<br />OPEN TO CONNECT</p>
-        </div>
-      </section>
+<!-- ===== ABOUT: bio, interests, hobbies ===== -->
+<section class="wrap about">
+  <h2>A bit about me</h2>
+  <div>
+    <p>I’m a technology enthusiast who enjoys building things with code and constantly exploring new technologies. I learn by building, experimenting and solving problems, and I’m always curious how technology can create practical solutions.</p>
+    <p class="mono">Interests</p>
+    <ul class="pills"><li>Software engineering</li><li>Backend development</li><li>Databases</li><li>APIs</li><li>Cloud computing</li><li>AI / Generative AI</li></ul>
+    <p class="mono">Away from the keyboard</p>
+    <ul class="pills alt"><li>Sketching</li><li>Guitar</li><li>Travelling</li><li>Sports</li></ul>
+  </div>
+</section>
 
-      <section class="tech-stack" aria-labelledby="tech-title">
-        <div class="stack-heading">
-          <p >LANGUAGES &amp; TOOLS</p>
-          <h2 id="tech-title">The tools I enjoy<br />working with.</h2>
-        </div>
-        <div class="icon-grid">
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /><span>Python</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="Amazon Web Services" /><span>AWS</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" /><span>Docker</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" /><span>Kubernetes</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="Terraform" /><span>Terraform</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="Jenkins" /><span>Jenkins</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /><span>Git</span></div>
-          <div class="tech-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" /><span>Linux</span></div>
-        </div>
-      </section>
+<!-- ===== PLAYGROUND: draggable tool stickers (built in script.js) ===== -->
+<section id="playground" class="wrap">
+  <div class="phead">
+    <h2>Playground</h2>
+    <p>Drag my tools around.</p>
+    <button class="btn small" id="shuffle" type="button">Shuffle</button>
+  </div>
+  <div class="pg" id="pg" aria-label="Draggable tool stickers"></div>
+</section>
 
-      <section class="connect" aria-labelledby="connect-title">
-        <div class="connect-heading">LET'S CONNECT</p><h2 id="connect-title">Find me around<br />the internet.</h2></div>
-        <div class="link-grid">
-          <a class="link-card primary" href="mailto:mihir.srivastava001@gmail.com"><span class="link-icon">✉</span><div><small>EMAIL ME</small><strong>mihir.srivastava001@gmail.com</strong></div><b>↗</b></a>
-          <a class="link-card" href="tel:+917318191290"><span class="link-icon">⌕</span><div><small>CALL / WHATSAPP</small><strong>+91 73181 91290</strong></div><b>↗</b></a>
-          <a class="link-card" href="https://www.linkedin.com/in/srivastava-mihir/" target="_blank" rel="noreferrer"><span class="link-icon">in</span><div><small>PROFESSIONAL PROFILE</small><strong>LinkedIn</strong></div><b>↗</b></a>
-          <a class="link-card" href="https://github.com/MihirShrivaastav" target="_blank" rel="noreferrer"><span class="link-icon">⌘</span><div><small>CODE & PROJECTS</small><strong>GitHub</strong></div><b>↗</b></a>
-          <a class="link-card" href="https://leetcode.com/u/mihirsrivastav/" target="_blank" rel="noreferrer"><span class="link-icon">{ }</span><div><small>PROBLEM SOLVING</small><strong>LeetCode</strong></div><b>↗</b></a>
-          <a class="link-card resume-card" href="./assets/Mihir_Srivastava_Resume.pdf" target="_blank" rel="noreferrer"><span class="link-icon">↓</span><div><small>MY EXPERIENCE</small><strong>View resume</strong></div><b>↗</b></a>
-        </div>
-      </section>
-    </main>
-    <footer><span>© <span id="year"></span> MIHIR SRIVASTAVA</span></footer>
-    <script src="script.js"></script>
-  </body>
+<!-- ===== WHAT I DO: cards are built from the list in script.js ===== -->
+<section class="wrap">
+  <h2>What I do</h2>
+  <div class="svc" id="svc"></div>
+</section>
+
+<!-- ===== CONTACT CALL TO ACTION ===== -->
+<section id="contact" class="wrap cta-big">
+  <h2>Got a role or a project?</h2>
+  <button class="btn ink big" type="button" data-open>Say hello</button>
+  <p class="mono"><span id="mail">mihir.srivastava001@gmail.com</span> <button class="copy" id="copy" type="button">Copy</button> &nbsp; <a href="tel:+917318191290">+91 73181 91290</a></p>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="year"></span> Mihir Srivastava</span><a href="#info">Back to top ↑</a></div></footer>
+
+<!-- ===== MESSAGE POPUP (opens from any "Say hello" / Contact link) ===== -->
+<dialog id="dlg" aria-labelledby="dlgTitle">
+  <form id="form">
+    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+    <div class="dhead"><h3 id="dlgTitle">Leave a message</h3><button class="x" id="close" type="button" aria-label="Close">✕</button></div>
+    <div class="two">
+      <label>Name<input name="name" required autocomplete="name" /></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email" /></label>
+    </div>
+    <label>Subject<input name="subject" /></label>
+    <label>Message<textarea name="msg" required></textarea></label>
+    <button class="btn ink" type="submit">Send message</button>
+  </form>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script>
+</body>
 </html>
